@@ -1,7 +1,7 @@
-import MultiForm from "./Components/MultiForm";
+import ClassCounter from "./Components/ClassCounter";
 
 function App() {
-  return <MultiForm />;
+  return <ClassCounter />;
 }
 
 export default App;
