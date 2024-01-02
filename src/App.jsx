@@ -1,7 +1,7 @@
-import HookCoutnerThree from "./Components/HookCoutnerThree";
+import HookCounterFour from "./Components/HookCounterFour";
 
 function App() {
-  return <HookCoutnerThree />;
+  return <HookCounterFour />;
 }
 
 export default App;
