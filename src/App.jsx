@@ -1,7 +1,7 @@
-import ClassCounter from "./Components/ClassCounter";
+import HooksCounter from "./Components/HooksCounter";
 
 function App() {
-  return <ClassCounter />;
+  return <HooksCounter />;
 }
 
 export default App;
