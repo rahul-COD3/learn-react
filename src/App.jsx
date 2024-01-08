@@ -1,17 +1,17 @@
-import HookCounterOne from "./Components/useEffect/HookCounterOne";
-import ClassCounterOne from "./Components/useEffect/ClassCounterOne";
-import ClassMouse from "./Components/useEffect/ClassMouse";
-import HookMouse from "./Components/useEffect/HookMouse";
-import MouseContainer from "./Components/useEffect/MouseContainer";
+import React from "react";
+import ComponentC from "./Components/useContext/ComponentC";
+
+export const UserContext = React.createContext();
+export const ChannelContext = React.createContext();
 
 function App() {
   return (
     <div className="App">
-      {/* <ClassCounterOne />; */}
-      {/* <HookCounterOne /> */}
-      {/* <ClassMouse /> */}
-      {/* <HookMouse /> */}
-      <MouseContainer />
+      <UserContext.Provider value={"Rahul"}>
+        <ChannelContext.Provider value={"Codevolution"}>
+          <ComponentC />
+        </ChannelContext.Provider>
+      </UserContext.Provider>
     </div>
   );
 }
