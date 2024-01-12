@@ -1,8 +1,12 @@
 import React from "react";
-import DataFetchingTwo from "./Components/useReducer/FetchData/DataFetchingTwo";
+import Counter from "./Components/useMemo/Counter";
 
 function App() {
-  return <DataFetchingTwo />;
+  return (
+    <div className="App">
+      <Counter />
+    </div>
+  );
 }
 
 export default App;
