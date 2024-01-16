@@ -14,7 +14,7 @@ function Counter() {
 
   const isEven = useMemo(() => {
     let i = 0;
-    while (i < 1000000000) {
+    while (i < 1000) {
       i++;
     }
     console.log(i);
